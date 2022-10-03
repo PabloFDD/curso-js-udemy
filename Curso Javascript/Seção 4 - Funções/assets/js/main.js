@@ -176,3 +176,23 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 
+// Função construtora retorna objetos
+// Construtora -> sempre inicia com letra maiuscula
+
+// function Pessoa(nome, sobrenome){
+//   // Atributo ou metodo privado
+//   const ID = 123456;
+//   const metodoInterno = function (){};
+
+//   // Atributo ou método público pois estou usando o 'this'
+//   this.nome = nome;
+//   this.sobrenome = sobrenome;
+
+//   this.metodo = function(){
+//     console.log(this.nome + ': Salve');
+//   };
+// }
+
+// const p1 = new Pessoa('Pablo', 'Felipe');
+
+// p1.metodo();
