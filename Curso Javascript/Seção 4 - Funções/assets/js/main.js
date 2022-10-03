@@ -196,3 +196,36 @@
 // const p1 = new Pessoa('Pablo', 'Felipe');
 
 // p1.metodo();
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+// Recursividade
+
+// const recursiva = (max) => {
+//   if(max >= 5) return;
+//   max++;
+//   console.log(max);
+//   recursiva(max);
+// }
+
+// recursiva(0);
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+// Funções geradoras
+
+// function* geradora1(){
+//   yield 'E ae';
+//   yield 'Salve';
+//   yield 'É nós';
+// }
+
+// const g1 = geradora1();
+
+// console.log(g1.next().value);
+// console.log(g1.next().value);
+// console.log(g1.next());
+
+// for (let valor of g1){
+//   console.log(valor);
+// }
